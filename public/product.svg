@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>product</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="juejin_chrome_extension_font-end" transform="translate(-1215.000000, -208.000000)">
+            <g id="Group-+-android" transform="translate(1215.000000, 208.000000)">
+                <g id="Group" transform="translate(4.973684, 5.684211)">
+                    <path d="M3.63265263,5.86709481 C3.58008399,5.57726059 3.55263158,5.27867833 3.55263158,4.97368421 C3.55263158,2.22679427 5.77942585,0 8.52631579,0 C11.2732057,0 13.5,2.22679427 13.5,4.97368421 C13.5,5.27867833 13.4725476,5.57726059 13.419979,5.86709481 C15.5154614,6.45243094 17.0526316,8.37565018 17.0526316,10.6578947 C17.0526316,13.4047847 14.8258373,15.6315789 12.0789474,15.6315789 C10.6872479,15.6315789 9.42905158,15.0599838 8.52631579,14.1387509 C7.62358,15.0599838 6.3653837,15.6315789 4.97368421,15.6315789 C2.22679427,15.6315789 0,13.4047847 0,10.6578947 C0,8.37565018 1.53717014,6.45243094 3.63265263,5.86709481 Z" id="Oval-354" fill="#EAF3FD"></path>
+                    <circle id="Oval-354" stroke="#007FFF" stroke-width="0.72" stroke-linejoin="round" cx="8.52631579" cy="4.97368421" r="4.97368421"></circle>
+                    <ellipse id="Oval-354-Copy" stroke="#007FFF" stroke-width="0.72" stroke-linejoin="round" cx="12.0789474" cy="10.6578947" rx="4.97368421" ry="4.97368421"></ellipse>
+                    <circle id="Oval-354-Copy-2" stroke="#007FFF" stroke-width="0.72" stroke-linejoin="round" cx="4.97368421" cy="10.6578947" r="4.97368421"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
