@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { Menu, Dropdown, Icon } from 'antd';
+import React, { Component } from "react";
+import { Menu, Dropdown, Icon } from "antd";
 
 const menusArr = [
   { iconName: "android", name: "Android" },
@@ -7,43 +7,41 @@ const menusArr = [
   { iconName: "product", name: "产品" },
   { iconName: "design", name: "设计" },
   { iconName: "ios", name: "iOS" },
-  { iconName: "backend", name: "后端" },
-]
+  { iconName: "backend", name: "后端" }
+];
 
 const menu = (
   <Menu>
-    {
-      menusArr.map(item=>{
-        return (
-          <Menu.Item key={item.iconName}>
-            <div style={{width: "16rem", lineHeight: "27px"}}>
-              <img className="channel-icon" src={"/"+item.iconName+".svg"} />
-              <span className="channel-title">{item.name}</span>
-              <style jsx>{`
-                .channel-icon {
-                  margin: 0 1rem;
-                  width: 2.25rem;
-                  height: 2.25rem;
-                }
-                .channel-title {
-                  font-size: 15px
-                }
-              `}</style>
-            </div>
-          </Menu.Item>
-        )
-      })
-    }
+    {menusArr.map(item => {
+      return (
+        <Menu.Item key={item.iconName}>
+          <div style={{ width: "16rem", lineHeight: "27px" }}>
+            <img className="channel-icon" src={"/" + item.iconName + ".svg"} />
+            <span className="channel-title">{item.name}</span>
+            <style jsx>{`
+              .channel-icon {
+                margin: 0 1rem;
+                width: 2.25rem;
+                height: 2.25rem;
+              }
+              .channel-title {
+                font-size: 15px;
+              }
+            `}</style>
+          </div>
+        </Menu.Item>
+      );
+    })}
   </Menu>
 );
 
 class HeaderSelector extends Component {
   constructor(props) {
-    super(props)
+    super(props); //test develop branch
   }
   render() {
     return (
-      <Dropdown overlay={menu} trigger={['click']}>
+      <Dropdown overlay={menu} trigger={["click"]}>
         <div className="channel-selector">
           <div className="curr">
             <img src="/frontend.svg" className="icon" />
@@ -59,7 +57,7 @@ class HeaderSelector extends Component {
               justify-content: flex-end;
               color: #767e8d;
               cursor: pointer;
-              opacity: .8;
+              opacity: 0.8;
               margin: 0 2rem 0 0;
             }
             .channel-selector .curr .icon {
@@ -74,8 +72,8 @@ class HeaderSelector extends Component {
           `}</style>
         </div>
       </Dropdown>
-    )
+    );
   }
 }
 
-export default HeaderSelector
+export default HeaderSelector;
