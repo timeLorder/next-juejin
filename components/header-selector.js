@@ -37,7 +37,7 @@ const menu = (
 
 class HeaderSelector extends Component {
   constructor(props) {
-    super(props); //test ssh connect
+    super(props); //test ssh
   }
   render() {
     return (
